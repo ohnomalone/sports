@@ -1,4 +1,4 @@
-Event {
+class Event {
   constructor(eventName, hostName, location, date, time, attendees, activity, discription, notes, equipment, attendeesNeeded) {
     this.name = name;
     this.hostName = hostName;
@@ -14,6 +14,7 @@ Event {
   }
 
   attendEvent() {
+    
 
   }
 
